@@ -1,5 +1,8 @@
 # wait-for-commit-status-action
-GitHub Action to wait for the commit status with a given context
+  
+Checks GitHub API for a given commit and look the commit status with the provided context.
+If the status is not there, sleeps for 10 seconds and try again.
+The current number of retries is set to 20.
 
 # Usage
 
